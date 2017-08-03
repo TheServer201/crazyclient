@@ -408,7 +408,7 @@ public class Map extends AbstractMap {
                             this.visibleUnder_.push(_local_13);
                         }
                     }
-                    else {
+                    else if (!_local_13.props_.isPlayer_ || _local_13.objectId_ == this.player_.objectId_) {
                         this.visible_.push(_local_13);
                     }
                 }
